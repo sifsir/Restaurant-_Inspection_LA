@@ -1,0 +1,23 @@
+[2023-11-26T08:14:03.320+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetch_clean_elastic.clean_data manual__2023-11-26T08:13:58.854370+00:00 [queued]>
+[2023-11-26T08:14:03.324+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetch_clean_elastic.clean_data manual__2023-11-26T08:13:58.854370+00:00 [queued]>
+[2023-11-26T08:14:03.324+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-26T08:14:03.324+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2023-11-26T08:14:03.325+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-26T08:14:03.330+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): clean_data> on 2023-11-26 08:13:58.854370+00:00
+[2023-11-26T08:14:03.336+0000] {standard_task_runner.py:52} INFO - Started process 206 to run task
+[2023-11-26T08:14:03.338+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'fetch_clean_elastic', 'clean_data', 'manual__2023-11-26T08:13:58.854370+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_Sifra_Siregar_DAG.py', '--cfg-path', '/tmp/tmpcn43td82', '--error-file', '/tmp/tmp2p0xqfa3']
+[2023-11-26T08:14:03.339+0000] {standard_task_runner.py:80} INFO - Job 3: Subtask clean_data
+[2023-11-26T08:14:03.372+0000] {task_command.py:371} INFO - Running <TaskInstance: fetch_clean_elastic.clean_data manual__2023-11-26T08:13:58.854370+00:00 [running]> on host 92456012013f
+[2023-11-26T08:14:03.412+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=sifra
+AIRFLOW_CTX_DAG_ID=fetch_clean_elastic
+AIRFLOW_CTX_TASK_ID=clean_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-26T08:13:58.854370+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-26T08:13:58.854370+00:00
+[2023-11-26T08:14:03.657+0000] {python.py:173} INFO - Done. Returned value was: None
+[2023-11-26T08:14:03.672+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=fetch_clean_elastic, task_id=clean_data, execution_date=20231126T081358, start_date=20231126T081403, end_date=20231126T081403
+[2023-11-26T08:14:03.684+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-11-26T08:14:03.705+0000] {local_task_job.py:279} INFO - 1 downstream tasks scheduled from follow-on schedule check

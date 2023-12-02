@@ -1,0 +1,754 @@
+[2023-11-26T07:37:13.457+0000] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:37:13.457+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:37:13.458+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:37:13.458+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:37:14.274+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:37:14.271+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py", line 18, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+[2023-11-26T07:37:14.275+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:37:14.339+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.885 seconds
+[2023-11-26T07:37:45.444+0000] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:37:45.446+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:37:45.452+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:37:45.451+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:37:47.596+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:37:47.594+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py", line 18, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+[2023-11-26T07:37:47.597+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:37:47.611+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 2.202 seconds
+[2023-11-26T07:38:11.601+0000] {processor.py:153} INFO - Started process (PID=207) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:38:11.603+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:38:11.604+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:11.604+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:38:12.227+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:38:12.285+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:12.285+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:fetch_clean_elastic
+[2023-11-26T07:38:12.289+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:12.289+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:fetch_clean_elastic
+[2023-11-26T07:38:12.292+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:12.292+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:fetch_clean_elastic
+[2023-11-26T07:38:12.293+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:12.292+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:38:12.297+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:12.297+0000] {dag.py:2448} INFO - Creating ORM DAG for fetch_clean_elastic
+[2023-11-26T07:38:12.304+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:12.304+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:38:12.311+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.718 seconds
+[2023-11-26T07:38:42.622+0000] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:38:42.625+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:38:42.627+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:42.626+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:38:43.642+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:38:43.659+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:43.658+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:38:43.670+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:38:43.670+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:38:43.675+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 1.060 seconds
+[2023-11-26T07:39:13.806+0000] {processor.py:153} INFO - Started process (PID=225) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:39:13.807+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:39:13.808+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:39:13.808+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:39:14.222+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:39:14.236+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:39:14.236+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:39:14.246+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:39:14.246+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:39:14.251+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.462 seconds
+[2023-11-26T07:39:44.512+0000] {processor.py:153} INFO - Started process (PID=231) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:39:44.514+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:39:44.519+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:39:44.518+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:39:45.878+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:39:45.892+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:39:45.892+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:39:45.903+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:39:45.903+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:39:45.907+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 1.420 seconds
+[2023-11-26T07:40:01.047+0000] {processor.py:153} INFO - Started process (PID=237) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:01.049+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:40:01.050+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:01.050+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:01.368+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:01.388+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:01.387+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:40:01.398+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:01.398+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:40:01.406+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.368 seconds
+[2023-11-26T07:40:03.463+0000] {processor.py:153} INFO - Started process (PID=243) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:03.465+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:40:03.466+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:03.466+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:03.719+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:03.729+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:03.729+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:40:03.737+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:03.737+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:40:03.742+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.287 seconds
+[2023-11-26T07:40:06.773+0000] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:06.774+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:40:06.774+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:06.774+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:06.965+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:06.974+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:06.974+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:40:06.982+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:06.982+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:40:06.988+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.219 seconds
+[2023-11-26T07:40:09.021+0000] {processor.py:153} INFO - Started process (PID=255) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:09.023+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:40:09.023+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:09.023+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:09.282+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:09.292+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:09.291+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:40:09.301+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:09.300+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:40:09.306+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.289 seconds
+[2023-11-26T07:40:39.594+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:39.604+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:40:39.622+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:39.621+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:42.940+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:40:42.955+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:42.955+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:40:42.968+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:40:42.968+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:40:42.972+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 3.399 seconds
+[2023-11-26T07:41:13.165+0000] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:41:13.167+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:41:13.168+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:41:13.168+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:41:13.606+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:41:13.620+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:41:13.620+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:41:13.630+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:41:13.630+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:41:13.634+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.480 seconds
+[2023-11-26T07:41:43.906+0000] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:41:43.908+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:41:43.908+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:41:43.908+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:41:44.628+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:41:44.639+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:41:44.639+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:41:44.649+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:41:44.649+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:41:44.653+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.755 seconds
+[2023-11-26T07:42:14.915+0000] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:14.917+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:14.918+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:14.918+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:15.318+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:15.342+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:15.342+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:42:15.355+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:15.355+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:42:15.360+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.451 seconds
+[2023-11-26T07:42:17.410+0000] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:17.411+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:17.412+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:17.412+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:17.419+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:17.415+0000] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py", line 141
+    bulk(es, actions)
+    ^
+IndentationError: unexpected indent
+[2023-11-26T07:42:17.419+0000] {processor.py:652} WARNING - No viable dags retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:17.441+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.035 seconds
+[2023-11-26T07:42:21.476+0000] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:21.478+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:21.479+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:21.479+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:21.881+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:21.895+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:21.894+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:42:21.904+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:21.904+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:42:21.910+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.443 seconds
+[2023-11-26T07:42:36.011+0000] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:36.012+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:36.013+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:36.013+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:36.437+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:36.453+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:36.453+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:42:36.462+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:36.462+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:42:36.468+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.463 seconds
+[2023-11-26T07:42:39.550+0000] {processor.py:153} INFO - Started process (PID=317) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:39.553+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:39.554+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:39.554+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:39.813+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:39.823+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:39.823+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:42:39.831+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:39.831+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:42:39.837+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.295 seconds
+[2023-11-26T07:42:44.888+0000] {processor.py:153} INFO - Started process (PID=323) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:44.889+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:44.889+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:44.889+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:46.379+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:46.859+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:46.855+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:42:46.959+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:46.959+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:42:47.195+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 2.311 seconds
+[2023-11-26T07:42:49.277+0000] {processor.py:153} INFO - Started process (PID=329) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:49.278+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:49.279+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:49.279+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:49.842+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:49.875+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:49.875+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:42:49.885+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:49.885+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:42:49.891+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.624 seconds
+[2023-11-26T07:42:52.945+0000] {processor.py:153} INFO - Started process (PID=335) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:52.947+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:42:52.949+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:52.948+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:53.215+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:42:53.229+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:53.229+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:42:53.238+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:42:53.238+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:42:53.244+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.307 seconds
+[2023-11-26T07:43:23.433+0000] {processor.py:153} INFO - Started process (PID=350) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:43:23.435+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:43:23.436+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:43:23.436+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:43:23.664+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:43:23.674+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:43:23.674+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:43:23.683+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:43:23.683+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:43:23.689+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.266 seconds
+[2023-11-26T07:43:53.903+0000] {processor.py:153} INFO - Started process (PID=359) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:43:53.904+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:43:53.905+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:43:53.905+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:43:54.377+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:43:54.396+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:43:54.396+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:43:54.406+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:43:54.405+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:43:54.410+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.512 seconds
+[2023-11-26T07:44:24.661+0000] {processor.py:153} INFO - Started process (PID=365) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:44:24.662+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:44:24.663+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:44:24.663+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:44:25.043+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:44:25.060+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:44:25.060+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:44:25.069+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:44:25.069+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:44:25.073+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.420 seconds
+[2023-11-26T07:44:55.317+0000] {processor.py:153} INFO - Started process (PID=374) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:44:55.318+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:44:55.319+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:44:55.319+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:44:55.821+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:44:55.845+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:44:55.844+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:44:55.855+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:44:55.855+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:44:55.859+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.548 seconds
+[2023-11-26T07:45:26.052+0000] {processor.py:153} INFO - Started process (PID=380) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:45:26.053+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:45:26.054+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:45:26.054+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:45:26.319+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:45:26.328+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:45:26.328+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:45:26.336+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:45:26.336+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:45:26.341+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.295 seconds
+[2023-11-26T07:45:56.563+0000] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:45:56.564+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:45:56.565+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:45:56.565+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:45:57.128+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:45:57.142+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:45:57.142+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:45:57.152+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:45:57.152+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:45:57.156+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.598 seconds
+[2023-11-26T07:46:27.384+0000] {processor.py:153} INFO - Started process (PID=395) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:46:27.386+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:46:27.387+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:46:27.387+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:46:27.591+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:46:27.601+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:46:27.601+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:46:27.609+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:46:27.609+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:46:27.613+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.234 seconds
+[2023-11-26T07:46:57.820+0000] {processor.py:153} INFO - Started process (PID=401) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:46:57.821+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:46:57.822+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:46:57.822+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:46:58.322+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:46:58.334+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:46:58.334+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:46:58.343+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:46:58.343+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:46:58.347+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.531 seconds
+[2023-11-26T07:49:17.659+0000] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:49:17.663+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:49:17.663+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:17.663+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:49:18.039+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:49:18.078+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:18.078+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:fetch_clean_elastic
+[2023-11-26T07:49:18.082+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:18.082+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:fetch_clean_elastic
+[2023-11-26T07:49:18.085+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:18.085+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:fetch_clean_elastic
+[2023-11-26T07:49:18.085+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:18.085+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:49:18.089+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:18.089+0000] {dag.py:2448} INFO - Creating ORM DAG for fetch_clean_elastic
+[2023-11-26T07:49:18.097+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:18.096+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:49:18.102+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.445 seconds
+[2023-11-26T07:49:48.910+0000] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:49:49.639+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:49:53.012+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:52.515+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:49:57.242+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:49:57.266+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:57.266+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:49:57.289+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:49:57.289+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:49:57.307+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 8.567 seconds
+[2023-11-26T07:50:27.560+0000] {processor.py:153} INFO - Started process (PID=200) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:50:27.561+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:50:27.562+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:50:27.562+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:50:28.149+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:50:28.163+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:50:28.163+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:50:28.173+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:50:28.173+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:50:28.177+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.626 seconds
+[2023-11-26T07:50:58.368+0000] {processor.py:153} INFO - Started process (PID=206) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:50:58.369+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:50:58.370+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:50:58.370+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:50:59.176+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:50:59.193+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:50:59.193+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:50:59.205+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:50:59.205+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:50:59.211+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.851 seconds
+[2023-11-26T07:51:29.406+0000] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:51:29.408+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:51:29.409+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:51:29.409+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:51:29.840+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:51:29.859+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:51:29.859+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:51:29.869+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:51:29.869+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:51:29.873+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.490 seconds
+[2023-11-26T07:52:00.090+0000] {processor.py:153} INFO - Started process (PID=227) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:52:00.094+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:52:00.097+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:52:00.097+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:52:01.469+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:52:01.488+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:52:01.487+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:52:01.503+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:52:01.503+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:52:01.509+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 1.437 seconds
+[2023-11-26T07:52:31.756+0000] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:52:31.759+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:52:31.760+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:52:31.760+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:52:32.080+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:52:32.092+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:52:32.091+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:52:32.101+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:52:32.101+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:52:32.105+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.356 seconds
+[2023-11-26T07:53:02.284+0000] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:53:02.286+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:53:02.287+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:53:02.287+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:53:02.743+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:53:02.761+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:53:02.760+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:53:02.770+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:53:02.770+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:53:02.774+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.498 seconds
+[2023-11-26T07:53:32.982+0000] {processor.py:153} INFO - Started process (PID=245) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:53:32.983+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:53:32.984+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:53:32.984+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:53:33.352+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:53:33.367+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:53:33.367+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:53:33.377+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:53:33.377+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:53:33.382+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.404 seconds
+[2023-11-26T07:57:50.270+0000] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:57:50.272+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:57:50.273+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:57:50.272+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:57:50.924+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:57:50.992+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:57:50.992+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:fetch_clean_elastic
+[2023-11-26T07:57:50.998+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:57:50.998+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:fetch_clean_elastic
+[2023-11-26T07:57:51.001+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:57:51.001+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:fetch_clean_elastic
+[2023-11-26T07:57:51.001+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:57:51.001+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:57:51.006+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:57:51.006+0000] {dag.py:2448} INFO - Creating ORM DAG for fetch_clean_elastic
+[2023-11-26T07:57:51.017+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:57:51.016+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:57:51.028+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.761 seconds
+[2023-11-26T07:58:21.993+0000] {processor.py:153} INFO - Started process (PID=194) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:58:22.005+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:58:22.013+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:58:22.013+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:58:47.846+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:58:48.073+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:58:48.069+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:58:48.156+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:58:48.155+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:58:48.196+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 26.170 seconds
+[2023-11-26T07:59:19.163+0000] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:59:19.169+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:59:19.174+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:59:19.173+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:59:23.105+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:59:23.126+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:59:23.126+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:59:23.137+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:59:23.137+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:59:23.141+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 4.020 seconds
+[2023-11-26T07:59:53.924+0000] {processor.py:153} INFO - Started process (PID=215) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:59:53.926+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T07:59:53.928+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:59:53.927+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:59:54.524+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T07:59:54.538+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:59:54.538+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T07:59:54.547+0000] {logging_mixin.py:115} INFO - [2023-11-26T07:59:54.547+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T07:59:54.551+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.640 seconds
+[2023-11-26T08:00:24.765+0000] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:00:24.766+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:00:24.767+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:00:24.767+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:00:25.349+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:00:25.367+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:00:25.367+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:00:25.377+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:00:25.377+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:00:25.382+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.625 seconds
+[2023-11-26T08:00:55.604+0000] {processor.py:153} INFO - Started process (PID=227) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:00:55.606+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:00:55.607+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:00:55.607+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:00:55.974+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:00:55.985+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:00:55.985+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:00:55.994+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:00:55.994+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:00:55.998+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.402 seconds
+[2023-11-26T08:01:26.203+0000] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:01:26.205+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:01:26.206+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:01:26.206+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:01:26.713+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:01:26.725+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:01:26.724+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:01:26.734+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:01:26.734+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:01:26.737+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.541 seconds
+[2023-11-26T08:01:56.925+0000] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:01:56.925+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:01:56.926+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:01:56.926+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:01:57.249+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:01:57.261+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:01:57.260+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:01:57.270+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:01:57.269+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:01:57.275+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.354 seconds
+[2023-11-26T08:02:27.437+0000] {processor.py:153} INFO - Started process (PID=248) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:02:27.439+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:02:27.439+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:02:27.439+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:02:27.829+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:02:27.845+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:02:27.844+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:02:27.854+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:02:27.854+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:02:27.858+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.425 seconds
+[2023-11-26T08:02:58.087+0000] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:02:58.089+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:02:58.091+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:02:58.090+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:02:58.472+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:02:58.486+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:02:58.486+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:02:58.496+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:02:58.496+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:02:58.501+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.424 seconds
+[2023-11-26T08:03:28.697+0000] {processor.py:153} INFO - Started process (PID=260) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:03:28.698+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:03:28.699+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:03:28.699+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:03:29.576+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:03:29.589+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:03:29.589+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:03:29.599+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:03:29.599+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:03:29.604+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.918 seconds
+[2023-11-26T08:03:59.772+0000] {processor.py:153} INFO - Started process (PID=266) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:03:59.774+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:03:59.775+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:03:59.775+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:04:00.163+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:04:00.177+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:04:00.176+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:04:00.191+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:04:00.191+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:04:00.196+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.431 seconds
+[2023-11-26T08:04:30.409+0000] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:04:30.411+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:04:30.412+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:04:30.412+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:04:30.996+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:04:31.012+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:04:31.012+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:04:31.026+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:04:31.026+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:04:31.030+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.630 seconds
+[2023-11-26T08:05:01.170+0000] {processor.py:153} INFO - Started process (PID=278) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:05:01.172+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:05:01.173+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:05:01.173+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:05:01.538+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:05:01.550+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:05:01.549+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:05:01.560+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:05:01.559+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:05:01.564+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.401 seconds
+[2023-11-26T08:05:31.803+0000] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:05:31.805+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:05:31.806+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:05:31.806+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:05:32.357+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:05:32.372+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:05:32.372+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:05:32.382+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:05:32.382+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:05:32.387+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.593 seconds
+[2023-11-26T08:06:02.605+0000] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:06:02.606+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:06:02.607+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:06:02.607+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:06:02.808+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:06:02.818+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:06:02.818+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:06:02.826+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:06:02.826+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:06:02.830+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.229 seconds
+[2023-11-26T08:06:33.002+0000] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:06:33.004+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:06:33.005+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:06:33.004+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:06:33.530+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:06:33.543+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:06:33.543+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:06:33.556+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:06:33.556+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:06:33.560+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.566 seconds
+[2023-11-26T08:07:03.760+0000] {processor.py:153} INFO - Started process (PID=302) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:07:03.761+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:07:03.762+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:07:03.762+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:07:03.972+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:07:03.981+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:07:03.981+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:07:03.990+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:07:03.990+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:07:03.994+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.239 seconds
+[2023-11-26T08:07:34.227+0000] {processor.py:153} INFO - Started process (PID=308) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:07:34.228+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:07:34.229+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:07:34.229+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:07:34.731+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:07:34.744+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:07:34.744+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:07:34.753+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:07:34.753+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:07:34.757+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.539 seconds
+[2023-11-26T08:08:05.047+0000] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:08:05.050+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:08:05.051+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:08:05.051+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:08:05.417+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:08:05.429+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:08:05.429+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:08:05.438+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:08:05.438+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:08:05.442+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.404 seconds
+[2023-11-26T08:08:35.590+0000] {processor.py:153} INFO - Started process (PID=320) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:08:35.591+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:08:35.592+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:08:35.592+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:08:36.093+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:08:36.108+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:08:36.108+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:08:36.117+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:08:36.117+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:08:36.121+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.537 seconds
+[2023-11-26T08:13:34.042+0000] {processor.py:153} INFO - Started process (PID=195) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:13:34.043+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:13:34.043+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:13:34.043+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:13:34.524+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:13:34.563+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:13:34.563+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:fetch_clean_elastic
+[2023-11-26T08:13:34.569+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:13:34.568+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:fetch_clean_elastic
+[2023-11-26T08:13:34.576+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:13:34.576+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:fetch_clean_elastic
+[2023-11-26T08:13:34.577+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:13:34.576+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:13:34.584+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:13:34.584+0000] {dag.py:2448} INFO - Creating ORM DAG for fetch_clean_elastic
+[2023-11-26T08:13:34.596+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:13:34.596+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:13:34.603+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.563 seconds
+[2023-11-26T08:14:04.806+0000] {processor.py:153} INFO - Started process (PID=210) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:14:04.807+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:14:04.808+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:14:04.808+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:14:05.262+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:14:05.279+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:14:05.278+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:14:05.293+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:14:05.293+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:14:05.302+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.502 seconds
+[2023-11-26T08:14:35.436+0000] {processor.py:153} INFO - Started process (PID=216) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:14:35.438+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:14:35.439+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:14:35.439+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:14:35.932+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:14:35.946+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:14:35.945+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:14:35.961+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:14:35.961+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:14:35.966+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.543 seconds
+[2023-11-26T08:15:06.161+0000] {processor.py:153} INFO - Started process (PID=222) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:15:06.163+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:15:06.168+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:15:06.167+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:15:06.579+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:15:06.606+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:15:06.606+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:15:06.617+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:15:06.617+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:15:06.621+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.467 seconds
+[2023-11-26T08:15:36.873+0000] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:15:36.874+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:15:36.874+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:15:36.874+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:15:37.322+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:15:37.334+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:15:37.334+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:15:37.347+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:15:37.347+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:15:37.353+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.484 seconds
+[2023-11-26T08:16:07.616+0000] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:16:07.617+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:16:07.618+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:16:07.618+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:16:08.013+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:16:08.045+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:16:08.045+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:16:08.057+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:16:08.057+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:16:08.066+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.455 seconds
+[2023-11-26T08:16:38.294+0000] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:16:38.296+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:16:38.298+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:16:38.298+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:16:38.763+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:16:38.776+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:16:38.776+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:16:38.786+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:16:38.786+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:16:38.790+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.503 seconds
+[2023-11-26T08:17:09.022+0000] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:17:09.024+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:17:09.025+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:17:09.025+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:17:09.625+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:17:09.642+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:17:09.642+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:17:09.656+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:17:09.655+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:17:09.664+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.648 seconds
+[2023-11-26T08:17:39.891+0000] {processor.py:153} INFO - Started process (PID=252) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:17:39.892+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:17:39.894+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:17:39.894+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:17:40.365+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:17:40.387+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:17:40.386+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:17:40.404+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:17:40.404+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:17:40.416+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.530 seconds
+[2023-11-26T08:18:10.610+0000] {processor.py:153} INFO - Started process (PID=258) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:18:10.612+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:18:10.613+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:18:10.613+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:18:11.026+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:18:11.040+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:18:11.040+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:18:11.051+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:18:11.051+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:18:11.061+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.457 seconds
+[2023-11-26T08:18:41.274+0000] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:18:41.276+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:18:41.277+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:18:41.277+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:18:41.661+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:18:41.673+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:18:41.672+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:18:41.682+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:18:41.682+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:18:41.686+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.418 seconds
+[2023-11-26T08:19:11.880+0000] {processor.py:153} INFO - Started process (PID=270) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:19:11.881+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:19:11.881+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:19:11.881+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:19:12.252+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:19:12.266+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:19:12.266+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:19:12.275+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:19:12.275+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:19:12.279+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.404 seconds
+[2023-11-26T08:19:42.528+0000] {processor.py:153} INFO - Started process (PID=276) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:19:42.532+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:19:42.534+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:19:42.534+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:19:42.907+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:19:42.928+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:19:42.928+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:19:42.938+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:19:42.937+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:19:42.943+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.424 seconds
+[2023-11-26T08:20:13.132+0000] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:20:13.134+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:20:13.135+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:20:13.135+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:20:13.483+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:20:13.495+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:20:13.495+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:20:13.504+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:20:13.504+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:20:13.509+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.382 seconds
+[2023-11-26T08:20:43.741+0000] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:20:43.743+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:20:43.744+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:20:43.744+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:20:44.123+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:20:44.138+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:20:44.138+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:20:44.147+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:20:44.147+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:20:44.151+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.418 seconds
+[2023-11-26T08:21:14.359+0000] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:21:14.361+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:21:14.362+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:21:14.362+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:21:14.731+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:21:14.745+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:21:14.745+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:21:14.754+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:21:14.754+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:21:14.758+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.406 seconds
+[2023-11-26T08:21:44.962+0000] {processor.py:153} INFO - Started process (PID=300) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:21:44.964+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:21:44.964+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:21:44.964+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:21:45.337+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:21:45.350+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:21:45.350+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:21:45.359+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:21:45.359+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:21:45.364+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.407 seconds
+[2023-11-26T08:22:15.533+0000] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:22:15.535+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:22:15.536+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:22:15.536+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:22:15.926+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:22:15.943+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:22:15.943+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:22:15.952+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:22:15.952+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:22:15.957+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.430 seconds
+[2023-11-26T08:22:46.209+0000] {processor.py:153} INFO - Started process (PID=312) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:22:46.211+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:22:46.212+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:22:46.212+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:22:46.589+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:22:46.602+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:22:46.602+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:22:46.611+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:22:46.611+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:22:46.615+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.415 seconds
+[2023-11-26T08:23:16.815+0000] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:23:16.818+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:23:16.819+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:23:16.819+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:23:17.185+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:23:17.200+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:23:17.200+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:23:17.209+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:23:17.209+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:23:17.213+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.406 seconds
+[2023-11-26T08:23:47.534+0000] {processor.py:153} INFO - Started process (PID=324) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:23:47.537+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:23:47.538+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:23:47.538+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:23:47.911+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:23:47.927+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:23:47.927+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:23:47.936+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:23:47.936+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:23:47.945+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.418 seconds
+[2023-11-26T08:24:18.158+0000] {processor.py:153} INFO - Started process (PID=330) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:24:18.161+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:24:18.163+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:24:18.163+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:24:18.518+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:24:18.533+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:24:18.532+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:24:18.542+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:24:18.542+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:24:18.546+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.393 seconds
+[2023-11-26T08:24:48.800+0000] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:24:48.802+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:24:48.803+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:24:48.802+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:24:49.253+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:24:49.271+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:24:49.271+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:24:49.283+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:24:49.283+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:24:49.291+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.496 seconds
+[2023-11-26T08:25:19.503+0000] {processor.py:153} INFO - Started process (PID=342) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:25:19.504+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:25:19.505+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:25:19.505+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:25:19.925+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:25:19.942+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:25:19.942+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:25:19.953+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:25:19.953+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:25:19.959+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.463 seconds
+[2023-11-26T08:25:50.180+0000] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:25:50.182+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:25:50.183+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:25:50.183+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:25:50.595+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:25:50.611+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:25:50.611+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:25:50.620+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:25:50.620+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:25:50.624+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.465 seconds
+[2023-11-26T08:26:20.855+0000] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:20.856+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:20.856+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:20.856+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:21.273+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:21.308+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:21.308+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:21.319+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:21.319+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:21.324+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.474 seconds
+[2023-11-26T08:26:22.900+0000] {processor.py:153} INFO - Started process (PID=360) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:22.904+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:22.905+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:22.905+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:23.203+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:23.213+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:23.213+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:23.221+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:23.221+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:23.228+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.339 seconds
+[2023-11-26T08:26:34.010+0000] {processor.py:153} INFO - Started process (PID=366) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:34.012+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:34.013+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:34.013+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:34.472+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:34.485+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:34.484+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:34.494+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:34.494+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:34.500+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.499 seconds
+[2023-11-26T08:26:38.386+0000] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:38.388+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:38.389+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:38.389+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:38.789+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:38.829+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:38.829+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:38.839+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:38.839+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:38.844+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.464 seconds
+[2023-11-26T08:26:44.591+0000] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:44.595+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:44.596+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:44.596+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:45.078+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:45.096+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:45.096+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:45.106+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:45.106+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:45.114+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.536 seconds
+[2023-11-26T08:26:45.929+0000] {processor.py:153} INFO - Started process (PID=384) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:45.931+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:45.933+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:45.932+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:46.154+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:46.166+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:46.165+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:46.173+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:46.173+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:46.179+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.260 seconds
+[2023-11-26T08:26:50.213+0000] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:50.217+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:50.218+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:50.218+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:50.607+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:50.621+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:50.620+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:50.630+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:50.630+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:50.640+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.444 seconds
+[2023-11-26T08:26:52.278+0000] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:52.283+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:26:52.286+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:52.286+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:52.752+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:26:52.770+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:52.769+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:26:52.779+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:26:52.779+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:26:52.785+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.518 seconds
+[2023-11-26T08:27:22.910+0000] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:27:22.912+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:27:22.914+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:27:22.913+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:27:23.398+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:27:23.423+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:27:23.422+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:27:23.442+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:27:23.442+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:27:23.448+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.546 seconds
+[2023-11-26T08:27:53.683+0000] {processor.py:153} INFO - Started process (PID=408) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:27:53.685+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:27:53.686+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:27:53.686+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:27:54.097+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:27:54.116+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:27:54.115+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:27:54.136+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:27:54.136+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:27:54.144+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.466 seconds
+[2023-11-26T08:28:24.299+0000] {processor.py:153} INFO - Started process (PID=414) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:28:24.301+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:28:24.302+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:28:24.301+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:28:24.696+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:28:24.711+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:28:24.711+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:28:24.720+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:28:24.720+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:28:24.725+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.432 seconds
+[2023-11-26T08:28:55.020+0000] {processor.py:153} INFO - Started process (PID=420) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:28:55.022+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:28:55.023+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:28:55.022+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:28:55.431+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:28:55.449+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:28:55.449+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:28:55.459+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:28:55.459+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:28:55.465+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.452 seconds
+[2023-11-26T08:29:25.708+0000] {processor.py:153} INFO - Started process (PID=426) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:29:25.711+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:29:25.712+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:29:25.712+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:29:26.109+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:29:26.124+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:29:26.124+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:29:26.135+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:29:26.134+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:29:26.144+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.443 seconds
+[2023-11-26T08:29:56.428+0000] {processor.py:153} INFO - Started process (PID=432) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:29:56.430+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:29:56.431+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:29:56.431+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:29:56.851+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:29:56.867+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:29:56.867+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:29:56.877+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:29:56.877+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:29:56.882+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.464 seconds
+[2023-11-26T08:30:27.073+0000] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:30:27.075+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:30:27.076+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:30:27.076+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:30:27.459+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:30:27.488+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:30:27.488+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:30:27.498+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:30:27.498+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:30:27.502+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.441 seconds
+[2023-11-26T08:30:57.714+0000] {processor.py:153} INFO - Started process (PID=444) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:30:57.716+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:30:57.718+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:30:57.717+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:30:58.178+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:30:58.198+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:30:58.198+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:30:58.207+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:30:58.207+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:30:58.212+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.505 seconds
+[2023-11-26T08:31:28.416+0000] {processor.py:153} INFO - Started process (PID=450) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:31:28.423+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:31:28.426+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:31:28.425+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:31:28.839+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:31:28.871+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:31:28.870+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:31:28.885+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:31:28.884+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:31:28.890+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.485 seconds
+[2023-11-26T08:31:59.129+0000] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:31:59.131+0000] {processor.py:640} INFO - Processing file /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py for tasks to queue
+[2023-11-26T08:31:59.132+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:31:59.132+0000] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:31:59.525+0000] {processor.py:650} INFO - DAG(s) dict_keys(['fetch_clean_elastic']) retrieved from /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py
+[2023-11-26T08:31:59.541+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:31:59.540+0000] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-11-26T08:31:59.550+0000] {logging_mixin.py:115} INFO - [2023-11-26T08:31:59.550+0000] {dag.py:2981} INFO - Setting next_dagrun for fetch_clean_elastic to 2023-11-26T23:30:00+00:00, run_after=2023-11-27T23:30:00+00:00
+[2023-11-26T08:31:59.554+0000] {processor.py:161} INFO - Processing /opt/airflow/dags/P2M3_Sifra_Siregar_DAG.py took 0.432 seconds

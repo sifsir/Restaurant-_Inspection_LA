@@ -1,0 +1,36 @@
+[2023-11-27T08:18:10.439+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetch_clean_elastic.post_to_elasticsearch manual__2023-11-27T08:18:06.203391+00:00 [queued]>
+[2023-11-27T08:18:10.443+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetch_clean_elastic.post_to_elasticsearch manual__2023-11-27T08:18:06.203391+00:00 [queued]>
+[2023-11-27T08:18:10.443+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-27T08:18:10.443+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2023-11-27T08:18:10.443+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-27T08:18:10.448+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): post_to_elasticsearch> on 2023-11-27 08:18:06.203391+00:00
+[2023-11-27T08:18:10.452+0000] {standard_task_runner.py:52} INFO - Started process 202 to run task
+[2023-11-27T08:18:10.453+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'fetch_clean_elastic', 'post_to_elasticsearch', 'manual__2023-11-27T08:18:06.203391+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_Sifra_Siregar_DAG.py', '--cfg-path', '/tmp/tmpl8vu8klg', '--error-file', '/tmp/tmp4d1z98et']
+[2023-11-27T08:18:10.454+0000] {standard_task_runner.py:80} INFO - Job 4: Subtask post_to_elasticsearch
+[2023-11-27T08:18:10.485+0000] {task_command.py:371} INFO - Running <TaskInstance: fetch_clean_elastic.post_to_elasticsearch manual__2023-11-27T08:18:06.203391+00:00 [running]> on host 35c13dd7183d
+[2023-11-27T08:18:10.519+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=sifra
+AIRFLOW_CTX_DAG_ID=fetch_clean_elastic
+AIRFLOW_CTX_TASK_ID=post_to_elasticsearch
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-27T08:18:06.203391+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-27T08:18:06.203391+00:00
+[2023-11-27T08:18:10.910+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.240s]
+[2023-11-27T08:18:10.950+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.034s]
+[2023-11-27T08:18:10.980+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.025s]
+[2023-11-27T08:18:11.012+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.027s]
+[2023-11-27T08:18:11.042+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.025s]
+[2023-11-27T08:18:11.088+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.042s]
+[2023-11-27T08:18:11.117+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.023s]
+[2023-11-27T08:18:11.143+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.021s]
+[2023-11-27T08:18:11.170+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.021s]
+[2023-11-27T08:18:11.197+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.022s]
+[2023-11-27T08:18:11.223+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.021s]
+[2023-11-27T08:18:11.264+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.036s]
+[2023-11-27T08:18:11.383+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.114s]
+[2023-11-27T08:18:11.385+0000] {python.py:173} INFO - Done. Returned value was: None
+[2023-11-27T08:18:11.404+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=fetch_clean_elastic, task_id=post_to_elasticsearch, execution_date=20231127T081806, start_date=20231127T081810, end_date=20231127T081811
+[2023-11-27T08:18:11.448+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-11-27T08:18:11.472+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,64 @@
+[2023-11-26T08:14:04.518+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetch_clean_elastic.post_to_elasticsearch manual__2023-11-26T08:13:58.854370+00:00 [queued]>
+[2023-11-26T08:14:04.526+0000] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: fetch_clean_elastic.post_to_elasticsearch manual__2023-11-26T08:13:58.854370+00:00 [queued]>
+[2023-11-26T08:14:04.527+0000] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-26T08:14:04.527+0000] {taskinstance.py:1369} INFO - Starting attempt 1 of 2
+[2023-11-26T08:14:04.527+0000] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-11-26T08:14:04.536+0000] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): post_to_elasticsearch> on 2023-11-26 08:13:58.854370+00:00
+[2023-11-26T08:14:04.541+0000] {standard_task_runner.py:52} INFO - Started process 209 to run task
+[2023-11-26T08:14:04.544+0000] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'fetch_clean_elastic', 'post_to_elasticsearch', 'manual__2023-11-26T08:13:58.854370+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/P2M3_Sifra_Siregar_DAG.py', '--cfg-path', '/tmp/tmp7qtylotn', '--error-file', '/tmp/tmpxr4037yw']
+[2023-11-26T08:14:04.545+0000] {standard_task_runner.py:80} INFO - Job 4: Subtask post_to_elasticsearch
+[2023-11-26T08:14:04.585+0000] {task_command.py:371} INFO - Running <TaskInstance: fetch_clean_elastic.post_to_elasticsearch manual__2023-11-26T08:13:58.854370+00:00 [running]> on host 92456012013f
+[2023-11-26T08:14:04.617+0000] {taskinstance.py:1583} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=sifra
+AIRFLOW_CTX_DAG_ID=fetch_clean_elastic
+AIRFLOW_CTX_TASK_ID=post_to_elasticsearch
+AIRFLOW_CTX_EXECUTION_DATE=2023-11-26T08:13:58.854370+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-11-26T08:13:58.854370+00:00
+[2023-11-26T08:14:05.548+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.259s]
+[2023-11-26T08:14:05.610+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.054s]
+[2023-11-26T08:14:05.686+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.064s]
+[2023-11-26T08:14:05.780+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.087s]
+[2023-11-26T08:14:05.879+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.092s]
+[2023-11-26T08:14:05.957+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.072s]
+[2023-11-26T08:14:06.026+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.063s]
+[2023-11-26T08:14:06.290+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.057s]
+[2023-11-26T08:14:06.372+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.077s]
+[2023-11-26T08:14:06.583+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.206s]
+[2023-11-26T08:14:06.616+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.026s]
+[2023-11-26T08:14:06.652+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.019s]
+[2023-11-26T08:14:06.673+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.016s]
+[2023-11-26T08:14:06.695+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.017s]
+[2023-11-26T08:14:06.719+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.018s]
+[2023-11-26T08:14:06.741+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.017s]
+[2023-11-26T08:14:06.764+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.017s]
+[2023-11-26T08:14:06.787+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.018s]
+[2023-11-26T08:14:06.819+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.026s]
+[2023-11-26T08:14:06.845+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.019s]
+[2023-11-26T08:14:06.868+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.017s]
+[2023-11-26T08:14:06.891+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.017s]
+[2023-11-26T08:14:06.912+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.016s]
+[2023-11-26T08:14:06.935+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.016s]
+[2023-11-26T08:14:06.956+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.016s]
+[2023-11-26T08:14:06.979+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.018s]
+[2023-11-26T08:14:07.000+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.016s]
+[2023-11-26T08:14:07.035+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.027s]
+[2023-11-26T08:14:07.058+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.017s]
+[2023-11-26T08:14:07.080+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.016s]
+[2023-11-26T08:14:07.100+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.014s]
+[2023-11-26T08:14:07.120+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.015s]
+[2023-11-26T08:14:07.152+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.027s]
+[2023-11-26T08:14:07.173+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.015s]
+[2023-11-26T08:14:07.202+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.024s]
+[2023-11-26T08:14:07.223+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.015s]
+[2023-11-26T08:14:07.243+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.014s]
+[2023-11-26T08:14:07.262+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.013s]
+[2023-11-26T08:14:07.293+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.025s]
+[2023-11-26T08:14:07.322+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.017s]
+[2023-11-26T08:14:07.336+0000] {base.py:271} INFO - POST http://elasticsearch:9200/_bulk [status:200 request:0.009s]
+[2023-11-26T08:14:07.345+0000] {python.py:173} INFO - Done. Returned value was: None
+[2023-11-26T08:14:07.366+0000] {taskinstance.py:1412} INFO - Marking task as SUCCESS. dag_id=fetch_clean_elastic, task_id=post_to_elasticsearch, execution_date=20231126T081358, start_date=20231126T081404, end_date=20231126T081407
+[2023-11-26T08:14:07.427+0000] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-11-26T08:14:07.486+0000] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check
